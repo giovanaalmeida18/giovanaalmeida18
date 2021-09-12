@@ -1,0 +1,19 @@
+<meta charset ="UTF-8">
+
+<script>  
+ function pulaLinha(){
+ 	document.write("<br>");
+ }
+
+ function mostra(frase){
+ 	document.write(frase);
+ 	pulaLinha();
+ }
+
+ var chegadaDosPortugueses = 1500
+ var anoAtual = 2019
+ var geracoes = anoAtual - chegadaDosPortugueses
+
+ mostra("Se passaram "+ Math.round(geracoes/28) + " gerações")
+pulaLinha();
+</script>
